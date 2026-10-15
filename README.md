@@ -2,6 +2,38 @@
 
 Material for SpikeInterface Tutorial @ Open Lab Online - October 2026
 
+## Data
+
+You can go through the notebooks in this course yourself, or code along with us on the day. To do so, please download `dandiset-000939-90s.zip` and `full_analyzer_lupin_000939.zarr.zip` from this Zenodo page: https://zenodo.org/records/21908762
+
+This data was originally collated and organised for the [Ephys track](https://neuroinformatics.dev/open-software-summer-school/2026/extracellular-electrophysiology.html) of the [Open Software Summer School](https://neuroinformatics.dev/open-software-summer-school/index.html). You can read more about the data [here](https://neuroinformatics.dev/course_ephys_osss/course-data.html).
+
+
+## Installation
+
+We recommend that you [install uv](https://docs.astral.sh/uv/getting-started/installation/). This is an unbelievably good new package
+management tool for Python.
+
+Open your Terminal app and cd (change directory) to where you like to keep github repos. Then clone this repo, and navigate to the `notebooks` folder of it by entering the following commands into your Terminal:
+
+``` shell
+git clone https://github.com/SpikeInterface/SpikeInterface-Training-OpenLabOnline-Oct26.git
+cd SpikeInterface-Training-OpenLabOnline-Oct26/notebooks/
+```
+
+Now open jupyter lab (you don't need to install this - uv will take care of it) using uv:
+
+``` shell
+uv run jupyter lab
+```
+
+Or if you prefer to use vscode:
+
+``` shell
+uv run code .
+```
+
+If you like traditional virtual environments, please visit [this page](https://github.com/SpikeInterface/spikeinterface/tree/main/installation_tips) to install on your laptop python+spikeinterface.
 
 
 ## Schedule
@@ -50,37 +82,3 @@ while people are entering the room
       - Curation using ML models / Bombcell
       - Merging units
     - Using GUI  + Automated curation
-
-
-## Installation
-
-We recommend that you [install uv](https://docs.astral.sh/uv/getting-started/installation/). This is an unbelievably good new package
-management tool for Python.
-
-Open your Terminal app and cd (change directory) to where you like to keep github repos. Then clone this repo, and navigate to the `notebooks` folder of it by entering the following commands into your Terminal:
-
-``` shell
-git clone https://github.com/SpikeInterface/SpikeInterface-Training-OpenLabOnline-Oct26.git
-cd SpikeInterface-Training-OpenLabOnline-Oct26/notebooks/
-```
-
-Now open jupyter lab (you don't need to install this - uv will take care of it) using uv:
-
-``` shell
-uv run jupyter lab
-```
-
-Or if you prefer to use vscode:
-
-``` shell
-uv run code .
-```
-
-If you like traditional virtual environments, please visit [this page](https://github.com/SpikeInterface/spikeinterface/tree/main/installation_tips) to install on your laptop python+spikeinterface.
-
-
-# Overview of available datasets
-
-https://neuroinformatics.dev/course_ephys_osss/course-data.html
-
-https://zenodo.org/records/21908762
