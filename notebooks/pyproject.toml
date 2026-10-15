@@ -5,12 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.14"
 dependencies = [
-    "hdbscan>=0.8.44",
     "jupyterlab>=4.4.7",
-    "spikeinterface[full,widgets]>=0.105.1",
-    "PySide6<6.8",
-    "pyqtgraph",
-    "spikeinterface-gui",
-    "panel",
-    "param",
+    "spikeinterface[full,widgets,lupin]>=0.105.2",
+    "spikeinterface-gui[desktop,web]",
+    "pandas>=3.0.6",
 ]
