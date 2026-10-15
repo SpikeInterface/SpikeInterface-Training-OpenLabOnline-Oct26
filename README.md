@@ -4,7 +4,7 @@ Material for SpikeInterface Tutorial @ Open Lab Online - October 2026
 
 ## Data
 
-You can go through the notebooks in this course yourself, or code along with us on the day. To do so, please download `dandiset-000939-90s.zip` and `full_analyzer_lupin_000939.zarr.zip` from this Zenodo page: https://zenodo.org/records/21908762
+You can go through the notebooks in this course yourself, or code along with us on the day. To do so, please download `dandiset-000939-90s.zip` and `full_analyzer_lupin_000939.zarr.zip` from this Zenodo page: https://zenodo.org/records/23373455
 
 This data was originally collated and organised for the [Ephys track](https://neuroinformatics.dev/open-software-summer-school/2026/extracellular-electrophysiology.html) of the [Open Software Summer School](https://neuroinformatics.dev/open-software-summer-school/index.html). You can read more about the data [here](https://neuroinformatics.dev/course_ephys_osss/course-data.html).
 
