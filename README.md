@@ -41,7 +41,7 @@ If you like traditional virtual environments, please visit [this page](https://g
 **October 19th - 15:00-18:00 CET**
 
 
-### Introduction (Sam - 30 min)
+### Introduction
 
 Display installation instructions and check that everyone has the necessary software ready
 while people are entering the room
@@ -51,7 +51,7 @@ while people are entering the room
 3. (mention various projects and papers)
 
 
-**Hands on tutorials - Wed 26/10 15:00-18:00**
+**Hands on tutorials - 15:30-18:00**
 
 -> Questions on chat <-
 
@@ -70,7 +70,7 @@ while people are entering the room
     - Motion
 
 3. Spike sort and Analysis(30 min - Chris)
-    - Run a spike sorter (LUPIN) **SHOW THE LOGO**
+    - Run a spike sorter (LUPIN)
     - Create a `SortingAnalyzer` to explore your sorting
     - Compute some extensions
     - Play with the extension outputs
